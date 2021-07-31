@@ -1,2 +1,2 @@
 # ScrapyCryptoNews
- Scraping Crypto news automatically for CoinTelegraph.com then auto publish on r/CyrptoCurrency
+ Scraping Cryptocurrency news automatically from CoinTelegraph.com and then auto publishing on r/CyrptoCurrency
