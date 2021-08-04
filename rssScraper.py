@@ -27,6 +27,3 @@ def scraperWriteTitle():
 # Calling all functions
 scraperPrint()
 scraperWriteTitle()
-
-
-

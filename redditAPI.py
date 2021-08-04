@@ -10,7 +10,6 @@ subr = 'APItesttest'
 
 print(reddit.user.me())
 
-
 subreddit = reddit.subreddit(subr)
 
 print(reddit.subreddit(subr))
@@ -27,6 +26,5 @@ print(postinfo)
 #    string = ''.join(str(item) for item in postinfo)
 #    print(string)
 #join()
-
 
 subreddit.submit(posttitle, url=postinfo)
