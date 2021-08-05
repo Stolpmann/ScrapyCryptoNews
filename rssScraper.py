@@ -4,7 +4,12 @@ url = "https://cointelegraph.com/rss"
 
 url2 = "https://bitcoinmagazine.com/.rss/full/"
 
+#url3 = "https://news.bitcoin.com/feed/"
+
+#url4 = "https://coinjournal.net/feed/"
+
 dir(feedparser)
+
 
 # Variable for Parsing Given URL
 
@@ -14,7 +19,14 @@ f = feedparser.parse(url)
 # Bitcoin Magazine Data
 f2 = feedparser.parse(url2)
 
-# Opens test.txt for writing
+# News.Bitcoin.com Data
+#f3 = feedparser.parse(url3)
+
+# Coinjournal Data
+#f4 = feedparser.parse(url4)
+
+
+# Opens text documents for writing parsed data
 
 # Cointelegraph Data
 append = open("/Users/Evan/PycharmProjects/ScrapyCryptoNews/test.txt", "a")
