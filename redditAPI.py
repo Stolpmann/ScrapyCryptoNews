@@ -16,15 +16,24 @@ print(reddit.subreddit(subr))
 
 r = open("/Users/Evan/PycharmProjects/ScrapyCryptoNews/test2.txt", "r")
 
-posttitle, postinfo = r.readlines()
+newpostlines = r.readlines()
 
-print(posttitle)
+new_last_lines = newpostlines[-2:]
 
-print(postinfo)
+new_second_last_lines = newpostlines[-5:-3]
 
-#def join():
-#    string = ''.join(str(item) for item in postinfo)
-#    print(string)
-#join()
+print(new_last_lines)
+print(new_second_last_lines)
 
-subreddit.submit(posttitle, url=postinfo)
+def join():
+    if new_last_lines != new_second_last_lines:
+        string = ''.join(str(item) for item in new_last_lines)
+        print(string)
+        print("strings are not equal")
+
+    elif new_last_lines == new_second_last_lines:
+        print("Lines are equal")
+join()
+
+
+#subreddit.submit(posttitle, url=postinfo)

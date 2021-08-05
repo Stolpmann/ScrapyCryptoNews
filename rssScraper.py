@@ -23,7 +23,6 @@ def scraperWriteTitle():
     f2.write(f.entries[0].link)
     f2.write("\n")
 
-
 # Calling all functions
 scraperPrint()
 scraperWriteTitle()
