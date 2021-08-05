@@ -42,11 +42,4 @@ def check():
     elif last_lines == second_last_lines:
         print("Lines are equal")
 
-        #def overwrite():
-            #duplicate=''.join(str(item) for item in last_lines)
-            #w = open("/Users/Evan/PycharmProjects/ScrapyCryptoNews/test2.txt", "w")
-            #w.write(duplicate)
-            #print(duplicate)
-        #overwrite()
-
 check()
