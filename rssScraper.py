@@ -4,9 +4,11 @@ url = "https://cointelegraph.com/rss"
 
 url2 = "https://bitcoinmagazine.com/.rss/full/"
 
-#url3 = "https://news.bitcoin.com/feed/"
+# url3 = "https://news.bitcoin.com/feed/"
 
-#url4 = "https://coinjournal.net/feed/"
+# url4 = "https://coinjournal.net/feed/"
+
+# url5 = "https://dailyhodl.com/feed/"
 
 dir(feedparser)
 
@@ -20,10 +22,13 @@ f = feedparser.parse(url)
 f2 = feedparser.parse(url2)
 
 # News.Bitcoin.com Data
-#f3 = feedparser.parse(url3)
+# f3 = feedparser.parse(url3)
 
 # Coinjournal Data
-#f4 = feedparser.parse(url4)
+# f4 = feedparser.parse(url4)
+
+# DailyHODL data
+# f5 = feedparser.parse(url5)
 
 
 # Opens text documents for writing parsed data
