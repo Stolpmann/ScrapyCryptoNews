@@ -1,11 +1,5 @@
 import praw
 
-reddit = praw.Reddit(client_id="-Ni4bYP9ySJYzRG2d8LOww",
-                     client_secret="rGsCwLMCFhDBW5nCJhoyUe-SbDuAQg",
-                     user_agent="Crypto Custom webscript by u/thecanopenerpodcast",
-                     password="123Blizzard",
-                     username="thecanopenerpodcast")
-
 #Cointelegraph Auto Uploader
 
 r = open("/Users/Evan/PycharmProjects/ScrapyCryptoNews/test.txt", "r")
