@@ -14,6 +14,6 @@ Step 2: Install the requirements: pip install feedparser, praw
 
 Step 3: Go to this app's directory and execute python scripts.
 
-<p align="center">
+<a align="center">
   <img src="/Users/Evan/Desktop/github/ScrapyCryptoNews/crontab.png" alt="Sublime's custom image"/>
-</p>
+</a>
